@@ -1,0 +1,239 @@
+/*-- General --*/
+
+body {
+	font-family: "Open Sans", sans-serif;
+	color: black;
+	background-image: linear-gradient(to bottom right, #e7e7e7, #fff);
+}
+
+a {
+	color: #550000;
+	text-decoration: none;
+}
+
+a: hover {
+	color: #AA3939;
+	text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6, .font-primary {
+  font-family: "Raleway", sans-serif;
+}
+
+
+
+/*-- navbar --*/
+.navbar {
+	padding: 0;
+}
+
+#navbarNav {
+	justify-content: flex-end;
+}
+
+
+/*-- main--*/
+.main {
+	position: relative;
+	text-align: center;
+
+}
+
+
+
+.top-right {
+	position: absolute;
+	top: 6rem;
+	right: 5rem;
+	padding: 15px;
+	background-color: rgba(255,255,255,0.6);
+	border-radius: 5px;
+}
+
+
+@media screen and (max-width: 500px) {
+	.top-right {
+		position: absolute;
+		top:  5rem;
+		right:  20px;
+	}
+}
+
+.backimg {
+	width: 100vw;
+}
+
+#whitebox h4 {
+	display: flex;
+	width: 70vw;
+}
+
+/*-- about me--*/
+
+#meimg {
+	padding: 20px;
+
+}
+
+#graybox {
+	margin: 2rem;
+	background-color: #fff;
+	box-shadow: 0 5px 26px 0 rgba(68, 88, 144, 0.24);
+ 	transition: all 0.3s ease-in-out;
+  	border: 1px solid #fff
+}
+
+
+.about {
+	margin: 2rem;
+	background-color: white;
+}
+
+/*--portfolio--*/
+
+.section-title {
+	display: inline-block;
+	text-align: center;
+	margin: 2rem;
+	padding: 10px;
+	width: 80vw;
+}
+
+.portfolio {
+	padding-bottom: 20px;
+}
+
+.portfolio .icon-box {
+	padding: 30px;
+	position: relative;
+	overflow: hidden;
+	margin: 0  0 40px 0;
+	background-color: #fff;
+	box-shadow: 0 5px 26px 0 rgba(68, 88, 144, 0.14);
+	transition: all 0.3s ease-in-out;
+	text-align: center;
+	border: 1px solid #fff;
+	}
+
+.portfolio .icon {
+	margin: 0 auto 20px auto;
+	padding-top: 17px;
+	display: inline-block;
+	text-align: center;
+	border-radius: 50%;
+	width: 72px;
+	height: 72px;
+}
+
+.portfolio .icon i {
+	font-size: 36px;
+	line-height: 1;
+}
+
+.portfolio .title {
+	font-weight: 700;
+	margin-bottom: 15px;
+	font-size: 18px;
+}
+
+.portfolio .title a {
+	color: #111;
+}
+
+.portfolio .description {
+  font-size: 15px;
+  line-height: 28px;
+  margin-bottom: 0;
+}
+
+.portfolio .icon-box-pink .icon {
+  background-image: url(assets/images/web.png);
+}
+
+.portfolio .icon-box-pink .icon i {
+  color: #ff689b;
+}
+
+.portfolio .icon-box-pink:hover {
+  border-color: #ff689b;
+}
+
+.portfolio .icon-box-cyan .icon {
+  background-image: url(assets/images/cont.png);
+}
+
+.portfolio .icon-box-cyan .icon i {
+  color: #3fcdc7;
+}
+
+.portfolio .icon-box-cyan:hover {
+  border-color: #3fcdc7;
+}
+
+.portfolio .icon-box-green .icon {
+  background-image: url(assets/images/scrap.png);
+}
+
+.portfolio .icon-box-green .icon i {
+  color: #41cf2e;
+}
+
+.portfolio .icon-box-green:hover {
+  border-color: #41cf2e;
+}
+
+.portfolio .icon-box-blue .icon {
+  background-image: url(assets/images/vis.png);
+}
+
+.portfolio .icon-box-blue .icon i {
+  color: #2282ff;
+}
+
+.portfolio .icon-box-blue:hover {
+  border-color: #2282ff;
+}
+
+/*-----contact-----*/
+
+.info-box {
+	background: white;
+	padding: 2rem;
+	background-color: #fff;
+  	box-shadow: 0 5px 26px 0 rgba(68, 88, 144, 0.14);
+ 	transition: all 0.3s ease-in-out;
+  	text-align: center;
+  	border: 1px solid #fff
+}
+
+#contact .social-links {
+  margin-top: 30px;
+}
+
+#contact .social-links a {
+  font-size: 24px;
+  display: inline-block;
+  color: #45505b;
+  line-height: 1;
+  margin-right: 20px;
+  transition: 0.3s;
+}
+
+#contact .social-links a:hover {
+  color: #0563bb;
+}
+
+ .social-links img  {
+	max-width: 49%;
+	max-hight: auto;
+}
+
+footer {
+	display: inline-block;
+	background-color: #e7e7e7 ;
+	text-align: center;
+	margin-top: 2rem;
+	padding: 10px;
+	width: 100vw;
+}
+
