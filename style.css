@@ -75,13 +75,6 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 
 }
 
-#graybox {
-	margin: 2rem;
-	background-color: #fff;
-	box-shadow: 0 5px 26px 0 rgba(68, 88, 144, 0.24);
- 	transition: all 0.3s ease-in-out;
-  	border: 1px solid #fff
-}
 
 
 .about {
